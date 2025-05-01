@@ -11,6 +11,6 @@ for n in range(4, 10000):
     summ = 0
     for i in st:
         summ += int(i)
-        if summ == 63:
-            print(n)
-            break
+    if summ == 63:
+        print(n)
+        break
